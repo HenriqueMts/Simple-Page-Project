@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Custom Dashboard with HTML and CSS</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <nav class="sidebar">
+        <a href="#">Dashboard</a>
+        <a href="#">Users</a>
+        <a href="#">Reports</a>
+        <a href="#">Settings</a>
+      </nav>
+
+      <div class="main-content">
+        <div class="main-header">
+          <h1>Dashboard</h1>
+        </div>
+
+        <div class="cards">
+          <div class="card">
+            <h3>Users</h3>
+            <p>Number of active users: 1200</p>
+          </div>
+          <div class="card success">
+            <h3>Sales</h3>
+            <p>Today's sales: $3,500</p>
+          </div>
+          <div class="card warning">
+            <h3>Performance</h3>
+            <p>Server uptime: 99.9%</p>
+          </div>
+        </div>
+
+        <h2>Recent Activity</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Date</th>
+              <th>Activity</th>
+              <th>Status</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>2024-09-19</td>
+              <td>User John Doe updated profile</td>
+              <td>Completed</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>2024-09-19</td>
+              <td>Sales report generated</td>
+              <td>Completed</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>2024-09-18</td>
+              <td>New user signed up</td>
+              <td>Completed</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>
